@@ -10,32 +10,32 @@ if first_input.isdigit() and second_input.isdigit():
 first_casted_input = int(first_input)
 second_casted_input = int(second_input)
 result = 0
-is_success = False
+
 
 if user_operation =="+" or user_operation == "1":
             result = first_casted_input + second_casted_input
             print(result)
-            is_success = True
+
 elif  user_operation =="-" or user_operation == "2":
             result = first_casted_input - second_casted_input
             print(result)
-            is_success = True
+
 elif  user_operation =="*" or user_operation == "3":
             result = first_casted_input * second_casted_input
             print(result)
-            is_success = True
+
 elif  user_operation =="/" or user_operation == "4":
             result = first_casted_input / second_casted_input
             print(result)
-            is_success = True
+
 elif  user_operation =="^" or user_operation == "5":
             result = first_casted_input ^ second_casted_input
             print(result)
-            is_success = True
+
 elif  user_operation =="%" or user_operation == "6":
             result = first_casted_input % second_casted_input
             print(result)
-            is_success = True
+
 else:
          print("invalid input,please try again")
 
